@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- License:GNU/GPL for radio.png image designed by Elegant Themes-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.matthew.morningvibe">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/radio"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.matthew.morningvibe.CountryList"
+            android:allowBackup="true"
+            android:icon="@mipmap/radio"
+            android:label="@string/stations"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.matthew.morningvibe.MainActivity" />
+
+        </activity>
+        <service
+            android:enabled="true"
+            android:name="com.example.matthew.morningvibe.StreamService" />
+        <receiver android:name=".AlarmReceiver" />
+        <service android:name=".SchedulingService" />
+    </application>
+</manifest>

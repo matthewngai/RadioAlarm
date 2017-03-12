@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Radio Stream</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_1">Set Alarm</string>
+    <string name="title_2">Stations</string>
+    <string name="title_3">Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_text">Add an alarm</string>
+    <string name="stations">Streams</string>
+
+</resources>

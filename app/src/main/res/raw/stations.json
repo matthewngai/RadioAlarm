@@ -1,0 +1,718 @@
+[{
+  "id": 6,
+  "name": "Digitally Imported Psy  Goatrance",
+  "country": "GB",
+  "image": {
+    "url": "https://cdn.devality.com/station/6/original.png",
+    "thumb": {
+      "url": "https://cdn.devality.com/station/6/thumb_original.png"
+    }
+  },
+  "slug": "digitally-imported-psy-goatrance",
+  "website": "http://www.di.fm/",
+  "twitter": null,
+  "facebook": null,
+  "categories": [{
+    "id": 1,
+    "title": "Trance",
+    "description": "stations that plays commercial and other things in trance-music genre.",
+    "slug": "trance",
+    "ancestry": "14"
+  }],
+  "streams": [{
+    "stream": "http://pub1.di.fm:80/di_goapsy",
+    "bitrate": 96,
+    "content_type": "audio/mpeg",
+    "status": 1
+  }, {
+    "stream": "gggggggggg",
+    "bitrate": 0,
+    "content_type": "?",
+    "status": 0
+  }],
+  "created_at": "2012-01-15T04:03:34+01:00",
+  "updated_at": "2015-04-11T14:10:44+02:00"
+}, {
+  "id": 7,
+  "name": "Powerfmse",
+  "country": "SE",
+  "image": {
+    "url": null,
+    "thumb": {
+      "url": null
+    }
+  },
+  "slug": "powerfmse",
+  "website": "http://powerfm.se",
+  "twitter": null,
+  "facebook": null,
+  "categories": [{
+    "id": 3,
+    "title": "Dance",
+    "description": "dance music, the new from 80's and 90's, like bubblegum and more.",
+    "slug": "dance",
+    "ancestry": "14"
+  }, {
+    "id": 14,
+    "title": "Electronic",
+    "description": "all computeriz made.",
+    "slug": "electronic",
+    "ancestry": null
+  }, {
+    "id": 1,
+    "title": "Trance",
+    "description": "stations that plays commercial and other things in trance-music genre.",
+    "slug": "trance",
+    "ancestry": "14"
+  }],
+  "streams": [{
+    "stream": "http://media.powerfm.se:80/high",
+    "bitrate": 160,
+    "content_type": "audio/mpeg\r\n",
+    "status": 1
+  }, {
+    "stream": "fffff",
+    "bitrate": 0,
+    "content_type": "?",
+    "status": 0
+  }],
+  "created_at": "2012-01-15T05:53:31+01:00",
+  "updated_at": "2015-04-11T14:10:44+02:00"
+}, {
+  "id": 8,
+  "name": "Digitally Imported  Vocal Trance",
+  "country": "US",
+  "image": {
+    "url": null,
+    "thumb": {
+      "url": null
+    }
+  },
+  "slug": "digitally-imported-vocal-trance",
+  "website": "",
+  "twitter": null,
+  "facebook": null,
+  "categories": [{
+    "id": 1,
+    "title": "Trance",
+    "description": "stations that plays commercial and other things in trance-music genre.",
+    "slug": "trance",
+    "ancestry": "14"
+  }],
+  "streams": [{
+    "stream": "http://pub8.di.fm:80/di_vocaltrance",
+    "bitrate": 96,
+    "content_type": "audio/mpeg",
+    "status": 1
+  }, {
+    "stream": "hhhhh",
+    "bitrate": 0,
+    "content_type": "?",
+    "status": 0
+  }],
+  "created_at": "2012-01-15T05:53:31+01:00",
+  "updated_at": "2015-04-11T14:10:44+02:00"
+}, {
+  "id": 9,
+  "name": "Radioseven",
+  "country": "SE",
+  "image": {
+    "url": null,
+    "thumb": {
+      "url": null
+    }
+  },
+  "slug": "radioseven",
+  "website": "http://www.radioseven.se/",
+  "twitter": null,
+  "facebook": null,
+  "categories": [{
+    "id": 1,
+    "title": "Trance",
+    "description": "stations that plays commercial and other things in trance-music genre.",
+    "slug": "trance",
+    "ancestry": "14"
+  }, {
+    "id": 3,
+    "title": "Dance",
+    "description": "dance music, the new from 80's and 90's, like bubblegum and more.",
+    "slug": "dance",
+    "ancestry": "14"
+  }, {
+    "id": 23,
+    "title": "House",
+    "description": "",
+    "slug": "house",
+    "ancestry": "14"
+  }],
+  "streams": [{
+    "stream": "http://178.32.238.139:8500",
+    "bitrate": 128,
+    "content_type": "audio/mpeg\r\n",
+    "status": 1
+  }, {
+    "stream": "http://sc5.radioseven.se:80",
+    "bitrate": 0,
+    "content_type": "?",
+    "status": 1
+  }, {
+    "stream": "http://sc5.radioseven.se:8500",
+    "bitrate": 0,
+    "content_type": "?",
+    "status": 1
+  }, {
+    "stream": "http://sc9.radioseven.se:8500",
+    "bitrate": 0,
+    "content_type": "?",
+    "status": 1
+  }, {
+    "stream": "http://sc3.radioseven.se:8500",
+    "bitrate": 0,
+    "content_type": "?",
+    "status": 1
+  }, {
+    "stream": "ttttttttt",
+    "bitrate": 0,
+    "content_type": "?",
+    "status": 0
+  }],
+  "created_at": "2012-01-15T05:55:12+01:00",
+  "updated_at": "2015-04-11T14:10:45+02:00"
+}, {
+  "id": 10,
+  "name": "Sr P3",
+  "country": "SE",
+  "image": {
+    "url": null,
+    "thumb": {
+      "url": null
+    }
+  },
+  "slug": "sr-p3",
+  "website": "",
+  "twitter": null,
+  "facebook": null,
+  "categories": [{
+    "id": 17,
+    "title": "Top 40",
+    "description": "",
+    "slug": "top-40",
+    "ancestry": "5"
+  }],
+  "streams": [{
+    "stream": "http://http-live.sr.se/p3-mp3-192",
+    "bitrate": 0,
+    "content_type": "?",
+    "status": 1
+  }, {
+    "stream": "dfgdfggdfg",
+    "bitrate": 0,
+    "content_type": "?",
+    "status": 0
+  }],
+  "created_at": "2012-01-15T05:55:12+01:00",
+  "updated_at": "2015-04-11T14:10:45+02:00"
+}, {
+  "id": 11,
+  "name": "Digitally Imported Hardcore",
+  "country": "US",
+  "image": {
+    "url": null,
+    "thumb": {
+      "url": null
+    }
+  },
+  "slug": "digitally-imported-hardcore",
+  "website": "",
+  "twitter": null,
+  "facebook": null,
+  "categories": [{
+    "id": 6,
+    "title": "Harddance",
+    "description": "harddance as hardstyle, hardcore, gabber, speedcore, terrorcore, happy hardcore etc etc",
+    "slug": "harddance",
+    "ancestry": "14"
+  }],
+  "streams": [{
+    "stream": "http://pub7.di.fm:80/di_hardcore",
+    "bitrate": 96,
+    "content_type": "audio/mpeg",
+    "status": 0
+  }, {
+    "stream": "fsdsdfsdfsd",
+    "bitrate": 0,
+    "content_type": "?",
+    "status": 0
+  }],
+  "created_at": "2012-01-15T05:56:48+01:00",
+  "updated_at": "2015-04-11T14:10:45+02:00"
+}, {
+  "id": 12,
+  "name": "Digitally Imported  Eurodance",
+  "country": "US",
+  "image": {
+    "url": null,
+    "thumb": {
+      "url": null
+    }
+  },
+  "slug": "digitally-imported-eurodance",
+  "website": "",
+  "twitter": null,
+  "facebook": null,
+  "categories": [{
+    "id": 3,
+    "title": "Dance",
+    "description": "dance music, the new from 80's and 90's, like bubblegum and more.",
+    "slug": "dance",
+    "ancestry": "14"
+  }],
+  "streams": [{
+    "stream": "http://pub5.di.fm:80/di_eurodance",
+    "bitrate": 96,
+    "content_type": "audio/mpeg",
+    "status": 1
+  }],
+  "created_at": "2012-01-15T05:56:48+01:00",
+  "updated_at": "2015-04-11T14:10:45+02:00"
+}, {
+  "id": 13,
+  "name": "Neradio Sweden",
+  "country": "SE",
+  "image": {
+    "url": null,
+    "thumb": {
+      "url": null
+    }
+  },
+  "slug": "neradio-sweden",
+  "website": "http://neradio.se/",
+  "twitter": null,
+  "facebook": null,
+  "categories": [{
+    "id": 3,
+    "title": "Dance",
+    "description": "dance music, the new from 80's and 90's, like bubblegum and more.",
+    "slug": "dance",
+    "ancestry": "14"
+  }, {
+    "id": 1,
+    "title": "Trance",
+    "description": "stations that plays commercial and other things in trance-music genre.",
+    "slug": "trance",
+    "ancestry": "14"
+  }],
+  "streams": [{
+    "stream": "http://bigbrother.dinmamma.be:8000",
+    "bitrate": 192,
+    "content_type": "audio/mpeg\r\n",
+    "status": 0
+  }, {
+    "stream": "http://norrland.neradio.se:8000",
+    "bitrate": 192,
+    "content_type": "audio/mpeg\r\n",
+    "status": 1
+  }, {
+    "stream": "http://s3.neradio.fm:8000",
+    "bitrate": 192,
+    "content_type": "audio/mpeg\r\n",
+    "status": 1
+  }, {
+    "stream": "http://007.neradio.com:9000",
+    "bitrate": 192,
+    "content_type": "audio/mpeg\r\n",
+    "status": 1
+  }, {
+    "stream": "http://330.neradio.com:80",
+    "bitrate": 192,
+    "content_type": "audio/mpeg\r\n",
+    "status": 1
+  }, {
+    "stream": "http://033.neradio.com:80",
+    "bitrate": 192,
+    "content_type": "audio/mpeg\r\n",
+    "status": 1
+  }, {
+    "stream": "http://85.11.54.240:8000",
+    "bitrate": 0,
+    "content_type": "?",
+    "status": 0
+  }],
+  "created_at": "2012-01-15T07:45:12+01:00",
+  "updated_at": "2015-04-11T14:10:45+02:00"
+}, {
+  "id": 14,
+  "name": "Neradio Hardstyle",
+  "country": "SE",
+  "image": {
+    "url": null,
+    "thumb": {
+      "url": null
+    }
+  },
+  "slug": "neradio-hardstyle",
+  "website": "http://www.hardstyle.nu",
+  "twitter": null,
+  "facebook": null,
+  "categories": [{
+    "id": 15,
+    "title": "Hardstyle",
+    "description": "",
+    "slug": "hardstyle",
+    "ancestry": "14"
+  }],
+  "streams": [{
+    "stream": "http://load.hardstyle.nu:443",
+    "bitrate": 192,
+    "content_type": "audio/mpeg",
+    "status": 1
+  }, {
+    "stream": "http://1.hardstyle.nu:443",
+    "bitrate": 192,
+    "content_type": "audio/mpeg",
+    "status": 1
+  }, {
+    "stream": "http://2.hardstyle.nu:443",
+    "bitrate": 192,
+    "content_type": "audio/mpeg",
+    "status": 1
+  }, {
+    "stream": "http://3.hardstyle.nu:443",
+    "bitrate": 192,
+    "content_type": "audio/mpeg",
+    "status": 1
+  }],
+  "created_at": "2012-01-15T07:49:54+01:00",
+  "updated_at": "2015-04-11T14:10:45+02:00"
+}, {
+  "id": 15,
+  "name": "Neradio House  Trance",
+  "country": "SE",
+  "image": {
+    "url": null,
+    "thumb": {
+      "url": null
+    }
+  },
+  "slug": "neradio-house-trance",
+  "website": "",
+  "twitter": null,
+  "facebook": null,
+  "categories": [{
+    "id": 1,
+    "title": "Trance",
+    "description": "stations that plays commercial and other things in trance-music genre.",
+    "slug": "trance",
+    "ancestry": "14"
+  }],
+  "streams": [{
+    "stream": "http://fire1.neradio.com",
+    "bitrate": 128,
+    "content_type": "audio/mpeg\r\n",
+    "status": 1
+  }, {
+    "stream": "http://fire2.neradio.com",
+    "bitrate": 128,
+    "content_type": "audio/mpeg\r\n",
+    "status": 1
+  }],
+  "created_at": "2012-01-15T07:49:54+01:00",
+  "updated_at": "2015-04-11T14:10:45+02:00"
+}, {
+  "id": 19,
+  "name": "Hardfm",
+  "country": "NL",
+  "image": {
+    "url": null,
+    "thumb": {
+      "url": null
+    }
+  },
+  "slug": "hardfm",
+  "website": "",
+  "twitter": null,
+  "facebook": null,
+  "categories": [{
+    "id": 15,
+    "title": "Hardstyle",
+    "description": "",
+    "slug": "hardstyle",
+    "ancestry": "14"
+  }],
+  "streams": [{
+    "stream": "http://streams.hard.fm/hfm-bb-mp3",
+    "bitrate": 0,
+    "content_type": "?",
+    "status": 1
+  }],
+  "created_at": "2012-01-15T07:59:31+01:00",
+  "updated_at": "2015-04-11T14:10:45+02:00"
+}, {
+  "id": 20,
+  "name": "Qdance Radio",
+  "country": "NL",
+  "image": {
+    "url": null,
+    "thumb": {
+      "url": null
+    }
+  },
+  "slug": "qdance-radio",
+  "website": "",
+  "twitter": null,
+  "facebook": null,
+  "categories": [{
+    "id": 15,
+    "title": "Hardstyle",
+    "description": "",
+    "slug": "hardstyle",
+    "ancestry": "14"
+  }],
+  "streams": [{
+    "stream": "http://stream01.platform02.true.nl:8000/qdance-hard",
+    "bitrate": 128,
+    "content_type": "audio/mpeg",
+    "status": 1
+  }],
+  "created_at": "2012-01-15T08:06:42+01:00",
+  "updated_at": "2015-04-11T14:10:45+02:00"
+}, {
+  "id": 21,
+  "name": "Digitally Imported Hardstyle",
+  "country": "US",
+  "image": {
+    "url": null,
+    "thumb": {
+      "url": null
+    }
+  },
+  "slug": "digitally-imported-hardstyle",
+  "website": "",
+  "twitter": null,
+  "facebook": null,
+  "categories": [{
+    "id": 15,
+    "title": "Hardstyle",
+    "description": "",
+    "slug": "hardstyle",
+    "ancestry": "14"
+  }],
+  "streams": [{
+    "stream": "http://pub8.di.fm:80/di_hardstyle",
+    "bitrate": 96,
+    "content_type": "audio/mpeg",
+    "status": 1
+  }],
+  "created_at": "2012-01-15T08:09:16+01:00",
+  "updated_at": "2015-04-11T14:10:45+02:00"
+}, {
+  "id": 23,
+  "name": "181.fm  181 Power",
+  "country": "US",
+  "image": {
+    "url": "https://cdn.devality.com/station/23/original.png",
+    "thumb": {
+      "url": "https://cdn.devality.com/station/23/thumb_original.png"
+    }
+  },
+  "slug": "181fm-181-power",
+  "website": "http://www.181.fm",
+  "twitter": null,
+  "facebook": null,
+  "categories": [{
+    "id": 17,
+    "title": "Top 40",
+    "description": "",
+    "slug": "top-40",
+    "ancestry": "5"
+  }],
+  "streams": [{
+    "stream": "http://relay4.181.fm:8128",
+    "bitrate": 128,
+    "content_type": "audio/mpeg\r\n",
+    "status": 1
+  }, {
+    "stream": "http://relay2.181.fm:8128",
+    "bitrate": 128,
+    "content_type": "audio/mpeg\r\n",
+    "status": 1
+  }, {
+    "stream": "http://relay1.181.fm:8128",
+    "bitrate": 128,
+    "content_type": "audio/mpeg\r\n",
+    "status": 1
+  }],
+  "created_at": "2012-01-15T08:20:29+01:00",
+  "updated_at": "2015-04-11T14:10:46+02:00"
+}, {
+  "id": 24,
+  "name": "Hot 108  Top 40",
+  "country": "US",
+  "image": {
+    "url": null,
+    "thumb": {
+      "url": null
+    }
+  },
+  "slug": "hot-108-top-40",
+  "website": "",
+  "twitter": null,
+  "facebook": null,
+  "categories": [{
+    "id": 17,
+    "title": "Top 40",
+    "description": "",
+    "slug": "top-40",
+    "ancestry": "5"
+  }],
+  "streams": [{
+    "stream": "http://scfire-ntc-aa04.stream.aol.com:80/stream/1071",
+    "bitrate": 0,
+    "content_type": "?",
+    "status": 0
+  }],
+  "created_at": "2012-01-15T08:20:29+01:00",
+  "updated_at": "2015-04-11T14:10:47+02:00"
+}, {
+  "id": 25,
+  "name": "Nrj Sweden",
+  "country": "SE",
+  "image": {
+    "url": "https://cdn.devality.com/station/25/original.png",
+    "thumb": {
+      "url": "https://cdn.devality.com/station/25/thumb_original.png"
+    }
+  },
+  "slug": "nrj-sweden",
+  "website": "http://www.radioplay.se/nrj",
+  "twitter": null,
+  "facebook": null,
+  "categories": [{
+    "id": 3,
+    "title": "Dance",
+    "description": "dance music, the new from 80's and 90's, like bubblegum and more.",
+    "slug": "dance",
+    "ancestry": "14"
+  }, {
+    "id": 6,
+    "title": "Harddance",
+    "description": "harddance as hardstyle, hardcore, gabber, speedcore, terrorcore, happy hardcore etc etc",
+    "slug": "harddance",
+    "ancestry": "14"
+  }, {
+    "id": 23,
+    "title": "House",
+    "description": "",
+    "slug": "house",
+    "ancestry": "14"
+  }],
+  "streams": [{
+    "stream": "http://194.16.21.227/nrj_se_mp3",
+    "bitrate": 128,
+    "content_type": "audio/mpeg",
+    "status": 1
+  }],
+  "created_at": "2012-01-15T08:37:21+01:00",
+  "updated_at": "2015-04-11T14:10:47+02:00"
+}, {
+  "id": 26,
+  "name": "Bandit Rock",
+  "country": "SE",
+  "image": {
+    "url": "https://cdn.devality.com/station/26/original.png",
+    "thumb": {
+      "url": "https://cdn.devality.com/station/26/thumb_original.png"
+    }
+  },
+  "slug": "bandit-rock",
+  "website": "http://www.bandit.se",
+  "twitter": null,
+  "facebook": null,
+  "categories": [{
+    "id": 19,
+    "title": "Modern Rock",
+    "description": "",
+    "slug": "modern-rock",
+    "ancestry": "2"
+  }],
+  "streams": [],
+  "created_at": "2012-01-15T08:39:47+01:00",
+  "updated_at": "2015-04-11T14:10:49+02:00"
+}, {
+  "id": 28,
+  "name": "Skyfm Roots Reggae",
+  "country": "US",
+  "image": {
+    "url": null,
+    "thumb": {
+      "url": null
+    }
+  },
+  "slug": "skyfm-roots-reggae",
+  "website": "",
+  "twitter": null,
+  "facebook": null,
+  "categories": [{
+    "id": 27,
+    "title": "Roots Reggae",
+    "description": "",
+    "slug": "roots-reggae",
+    "ancestry": "9"
+  }],
+  "streams": [{
+    "stream": "http://scfire-mtc-aa04.stream.aol.com:80/stream/1017",
+    "bitrate": 0,
+    "content_type": "?",
+    "status": 0
+  }],
+  "created_at": "2012-01-15T09:15:15+01:00",
+  "updated_at": "2015-04-11T14:10:50+02:00"
+}, {
+  "id": 29,
+  "name": "Skyfm Dance Hits",
+  "country": "US",
+  "image": {
+    "url": null,
+    "thumb": {
+      "url": null
+    }
+  },
+  "slug": "skyfm-dance-hits",
+  "website": "",
+  "twitter": null,
+  "facebook": null,
+  "categories": [{
+    "id": 3,
+    "title": "Dance",
+    "description": "dance music, the new from 80's and 90's, like bubblegum and more.",
+    "slug": "dance",
+    "ancestry": "14"
+  }],
+  "streams": [],
+  "created_at": "2012-01-15T09:17:07+01:00",
+  "updated_at": "2015-04-11T14:10:50+02:00"
+}, {
+  "id": 30,
+  "name": "Idobi Radio New Music Unfiltered",
+  "country": "US",
+  "image": {
+    "url": null,
+    "thumb": {
+      "url": null
+    }
+  },
+  "slug": "idobi-radio-new-music-unfiltered",
+  "website": "",
+  "twitter": null,
+  "facebook": null,
+  "categories": [{
+    "id": 18,
+    "title": "Classic Rock",
+    "description": "",
+    "slug": "classic-rock",
+    "ancestry": "2"
+  }],
+  "streams": [],
+  "created_at": "2012-01-15T09:23:12+01:00",
+  "updated_at": "2015-04-11T14:10:50+02:00"
+}]
