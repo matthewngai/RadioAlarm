@@ -67,6 +67,7 @@ public class RingerFragment extends android.support.v4.app.Fragment {
     private HashMap<String, String> radio_stations;
     private Button countryButton;
     private Button stationButton;
+    private Button okButton;
     private String selectedCountry = "";
     private String selectedStation = "";
     private static final String API_URL_COUNTRY = "http://api.dirble.com/v2/countries/";
@@ -129,6 +130,7 @@ public class RingerFragment extends android.support.v4.app.Fragment {
             items = list.toArray(new CharSequence[list.size()]);
             countryButton = (Button) view.findViewById(R.id.pickCountry);
             stationButton = (Button) view.findViewById(R.id.pickStation);
+            okButton = (Button) view.findViewById(R.id.pickStation);
 
             countryButton.setOnClickListener(new View.OnClickListener() {
                 @Override

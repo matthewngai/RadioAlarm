@@ -28,8 +28,29 @@
         android:paddingTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/pickStation"
         android:text="On/Off"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cancelButton"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="38dp" />
+
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:layout_below="@+id/pickStation"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"/>
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_below="@+id/pickStation"
+        android:layout_toRightOf="@id/okButton"/>
 
 </RelativeLayout>

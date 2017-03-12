@@ -7,6 +7,7 @@ import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnBufferingUpdateListener;
 import android.media.MediaPlayer.OnCompletionListener;
@@ -41,11 +42,12 @@ public class StreamService extends Service implements OnCompletionListener,
     private Runnable runnable = new Runnable() {
         @Override
         public void run() {
-            Log.d("runnable", "stop the media");
+            Log.d("Runnable Timer", "stop the media after 12 seconds");
             if (!mediaPlayer.isPlaying()) {
-//                mediaPlayer.stop();
+                mediaPlayer.stop();
                 mediaPlayer.reset();
-//                mediaPlayer.release();
+                mediaPlayer.release();
+                mediaPlayer = null;
                 deleteNotification();
                 showNotif();
             }
@@ -78,25 +80,22 @@ public class StreamService extends Service implements OnCompletionListener,
                 streamName = intent.getExtras().getString("streamName");
                 country_code = intent.getExtras().getString("country_code");
                 if (streamLink != null) {
+//                    streamLink = "http://streaming.radionomy.com/70sClassics?lang=en-US%2cen%3bq%3d0.8%2czh-TW%3bq%3d0.6%2czh%3bq%3d0.4";
+//                    AudioManager audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
+//                    audioManager.setStreamVolume(AudioManager.STREAM_MUSIC, 20, 0);
                     mediaPlayer.setDataSource(streamLink);
+                    Log.d("showing link", streamLink);
+                    Log.d("showing mediaPlayer", mediaPlayer.toString());
                     mediaPlayer.prepareAsync(); //async
                     createNotification();
                     handler = new Handler();
+                    Log.d("State 1", "Before on stop");
                     onStop();
+                    Log.d("State 2", "After on stop");
                     onStart();
+                    Log.d("State 3", "After on onstart");
 
-//                    handler.postDelayed(new Runnable()
-//                    {
-//                        @Override
-//                        public void run() {
-//                            Log.d("run", "This handler has run after 10 seconds");
-////                            if (!mediaPlayer.isPlaying()) {
-////                                mediaPlayer.reset();
-////                                deleteNotification();
-////                                showNotif();
-////                            }
-//                        }
-//                    }, 10000);
+
                 }
                 else {
                     deleteNotification();
@@ -136,8 +135,7 @@ public class StreamService extends Service implements OnCompletionListener,
                 "Media Player Timeout", Toast.LENGTH_LONG).show();
     }
     protected void onStart() {
-
-        handler.postDelayed(runnable, 12 * 1000);
+        handler.postDelayed(runnable, 45 * 1000);
     }
 
     protected void onStop() {
@@ -168,9 +166,9 @@ public class StreamService extends Service implements OnCompletionListener,
 
     @Override
     public void onBufferingUpdate(MediaPlayer arg0, int arg1) {
-//        Log.d("onBufferingUpdate", Integer.toString(arg1));
-//        Toast.makeText(this,
-//                "Buffering...", Toast.LENGTH_SHORT).show();
+        Log.d("onBufferingUpdate", Integer.toString(arg1));
+        Toast.makeText(this,
+                "Buffering...", Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -224,7 +222,12 @@ public class StreamService extends Service implements OnCompletionListener,
 
     @Override
     public void onPrepared(MediaPlayer arg0) {
+        Log.e("I", arg0.toString());
+        if (arg0.equals(mediaPlayer)){
+        Log.e("I", "Media player has been loaded to memory !");
+        }
         //play stream once mediaplayer is ready
+        Log.d("onPrepared", "play media!!");
         playMedia();
     }
 
