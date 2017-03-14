@@ -56,6 +56,8 @@ public class RingerFragment extends android.support.v4.app.Fragment {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
     private static final String CUSTOM_BUTTON_TITLE = "Enter Custom Stream";
+    private static final String RADIO_BUTTON_TITLE = "Select Radio Station";
+    private static final String COUNTRY_BUTTON_TITLE = "Select Country";
     private OnFragmentInteractionListener mListener;
     private ArrayList<String> listAlarms = new ArrayList<String>();
     private ArrayAdapter<String> adapter;
@@ -186,7 +188,9 @@ public class RingerFragment extends android.support.v4.app.Fragment {
                         public void onClick(DialogInterface dialog, int id) {
                             //...
                             try {
-                                stationButton.setText(stationsArray.get(stationPosition));
+                                countryButton.setText(COUNTRY_BUTTON_TITLE);
+
+                                stationButton.setText(RADIO_BUTTON_TITLE);
                                 selectedStation = radio_stations.get(stationsArray.get(stationPosition));
                             }
                             catch (Exception e) {
@@ -196,8 +200,7 @@ public class RingerFragment extends android.support.v4.app.Fragment {
                     })
                     .setTitle("Select Station")
                     .show();
-                }
-                    else {
+                } else {
 
                 }
                 }
@@ -219,8 +222,11 @@ public class RingerFragment extends android.support.v4.app.Fragment {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             custom_text = input.getText().toString();
-                            if (custom_text.length() > 0) {
+                            if (custom_text.trim().length() > 0) {
                                 customButton.setText(custom_text);
+                                selectedCountry = "";
+                                stationButton.setText(stationsArray.get(stationPosition));
+                                selectedStation = "";
                             } else {
                                 customButton.setText(CUSTOM_BUTTON_TITLE);
                             }
