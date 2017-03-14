@@ -16,6 +16,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.text.InputType;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -24,6 +25,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CompoundButton;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Switch;
 import android.widget.TimePicker;
@@ -53,6 +55,7 @@ public class RingerFragment extends android.support.v4.app.Fragment {
     AlarmManager alarmManager;
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
+    private static final String CUSTOM_BUTTON_TITLE = "Enter Custom Stream";
     private OnFragmentInteractionListener mListener;
     private ArrayList<String> listAlarms = new ArrayList<String>();
     private ArrayAdapter<String> adapter;
@@ -68,6 +71,7 @@ public class RingerFragment extends android.support.v4.app.Fragment {
     private Button countryButton;
     private Button stationButton;
     private Button okButton;
+    private Button customButton;
     private String selectedCountry = "";
     private String selectedStation = "";
     private static final String API_URL_COUNTRY = "http://api.dirble.com/v2/countries/";
@@ -78,6 +82,7 @@ public class RingerFragment extends android.support.v4.app.Fragment {
     private CharSequence station_items[];
     private int countryPosition;
     private int stationPosition;
+    private String custom_text = "";
 //    private StationsTask stationsTask;
     private boolean stationsLoaded = false;
 
@@ -130,7 +135,9 @@ public class RingerFragment extends android.support.v4.app.Fragment {
             items = list.toArray(new CharSequence[list.size()]);
             countryButton = (Button) view.findViewById(R.id.pickCountry);
             stationButton = (Button) view.findViewById(R.id.pickStation);
-            okButton = (Button) view.findViewById(R.id.pickStation);
+//            okButton = (Button) view.findViewById(R.id.pickStation);
+            customButton = (Button) view.findViewById(R.id.customSelect);
+
 
             countryButton.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -193,6 +200,39 @@ public class RingerFragment extends android.support.v4.app.Fragment {
                     else {
 
                 }
+                }
+            });
+
+            customButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+                    builder.setTitle("Enter your custom radio stream: ");
+
+                    final EditText input = new EditText(getContext());
+                    input.setInputType(InputType.TYPE_CLASS_TEXT);
+                    input.setText(custom_text);
+                    builder.setView(input);
+
+                    // Set up the buttons
+                    builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            custom_text = input.getText().toString();
+                            if (custom_text.length() > 0) {
+                                customButton.setText(custom_text);
+                            } else {
+                                customButton.setText(CUSTOM_BUTTON_TITLE);
+                            }
+                        }
+                    });
+                    builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.cancel();
+                        }
+                    });
+                    builder.show();
                 }
             });
 
